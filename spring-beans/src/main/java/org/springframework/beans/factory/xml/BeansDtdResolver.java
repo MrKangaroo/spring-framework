@@ -50,6 +50,8 @@ public class BeansDtdResolver implements EntityResolver {
 	private static final Log logger = LogFactory.getLog(BeansDtdResolver.class);
 
 
+	// TODO-FOX : 自定义寻找【验证文件】的逻辑 - DTD
+
 	@Override
 	@Nullable
 	public InputSource resolveEntity(String publicId, @Nullable String systemId) throws IOException {

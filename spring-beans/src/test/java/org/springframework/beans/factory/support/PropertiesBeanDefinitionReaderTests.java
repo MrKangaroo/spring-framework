@@ -26,6 +26,9 @@ import static org.junit.Assert.*;
 /**
  * @author Rob Harrop
  */
+
+// TODO-FOX :  解析 Properties 配置文件成对应的 BeanDefinition 的流程
+
 public class PropertiesBeanDefinitionReaderTests {
 
 	private final DefaultListableBeanFactory beanFactory = new DefaultListableBeanFactory();

@@ -70,6 +70,9 @@ import static org.junit.Assert.*;
  * @author Chris Beams
  * @author Sam Brannen
  */
+
+// TODO-FOX : 调试基于 @Aspect 注解的 AOP 的流程
+
 public class AspectJAutoProxyCreatorTests {
 
 	private static final Log factoryLog = LogFactory.getLog(DefaultListableBeanFactory.class);

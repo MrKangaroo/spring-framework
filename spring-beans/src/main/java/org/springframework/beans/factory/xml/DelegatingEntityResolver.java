@@ -76,6 +76,7 @@ public class DelegatingEntityResolver implements EntityResolver {
 		this.schemaResolver = schemaResolver;
 	}
 
+	// TODO-FOX : 自定义寻找【验证文件】的逻辑
 
 	@Override
 	@Nullable

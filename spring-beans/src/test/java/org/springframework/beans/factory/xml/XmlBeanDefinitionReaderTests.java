@@ -63,6 +63,7 @@ public class XmlBeanDefinitionReaderTests {
 		testBeanDefinitions(registry);
 	}
 
+	// TODO-FOX : XML 配置文件成对应的 BeanDefinition 的流程
 	@Test
 	public void withImport() {
 		SimpleBeanDefinitionRegistry registry = new SimpleBeanDefinitionRegistry();
@@ -96,6 +97,7 @@ public class XmlBeanDefinitionReaderTests {
 		testBeanDefinitions(registry);
 	}
 
+	// TODO-FOX : XML 配置文件成对应的 BeanDefinition 的流程
 	@Test
 	public void withFreshInputStream() {
 		SimpleBeanDefinitionRegistry registry = new SimpleBeanDefinitionRegistry();

@@ -36,6 +36,9 @@ import static org.junit.Assert.*;
  * @author Rob Harrop
  * @author Adrian Colyer
  */
+
+// TODO-FOX : 调试 <tx:advice /> 标签的解析的流程
+
 public class TxNamespaceHandlerTests {
 
 	private ApplicationContext context;

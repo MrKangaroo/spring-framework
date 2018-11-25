@@ -42,6 +42,9 @@ import static org.junit.Assert.*;
  * @author Juergen Hoeller
  * @since 09.11.2003
  */
+
+// TODO-FOX : Bean加载流程
+
 @SuppressWarnings({"rawtypes", "unchecked"})
 public class XmlListableBeanFactoryTests extends AbstractListableBeanFactoryTests {
 

@@ -202,6 +202,8 @@ public class DefaultBeanDefinitionDocumentReader implements BeanDefinitionDocume
 		}
 	}
 
+	// TODO-FOX : parse import tag
+
 	/**
 	 * Parse an "import" element and load the bean definitions
 	 * from the given resource into the bean factory.

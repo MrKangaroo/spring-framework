@@ -323,6 +323,8 @@ public class ClassPathXmlApplicationContextTests {
 		assertSame(myMessageSource, beansOfType.values().iterator().next());
 	}
 
+
+	// TODO-FOX : ClassPathXmlApplicationContext
 	@Test
 	public void testResourceAndInputStream() throws IOException {
 		ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext(RESOURCE_CONTEXT) {

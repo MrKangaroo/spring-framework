@@ -103,6 +103,8 @@ public class PluggableSchemaResolver implements EntityResolver {
 		this.schemaMappingsLocation = schemaMappingsLocation;
 	}
 
+	// TODO-FOX : 自定义寻找【验证文件】的逻辑 - XSD
+
 	@Override
 	@Nullable
 	public InputSource resolveEntity(String publicId, @Nullable String systemId) throws IOException {
